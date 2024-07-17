@@ -1,0 +1,1 @@
+proyecto inacabado para jugar necesitas ejecutar el proyecto y escribir en terminal la casilla de salida y la de destino de las piezas

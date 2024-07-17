@@ -1,0 +1,38 @@
+
+g	java:S112T"FDefine and throw a dedicated exception instead of using a generic one.(ÛğÊ¶ûÿÿÿÿ8ÑùÓß‰2
+b	java:S112^"FDefine and throw a dedicated exception instead of using a generic one.(®§øÔ8ÑùÓß‰2
+b	java:S112a"FDefine and throw a dedicated exception instead of using a generic one.(ì‡›Ï8ÑùÓß‰2
+>
+java:S1643o"Use a StringBuilder instead.(ó§İÿÿÿÿÿ8ÔùÓß‰2
+9
+java:S1643q"Use a StringBuilder instead.(©Àº™8ÔùÓß‰2
+>
+java:S1643t"Use a StringBuilder instead.(‹ØöÀıÿÿÿÿ8ÔùÓß‰2
+Y
+java:S4973S"<Strings and Boxed types should be compared using "equals()".(óàüú8ÖùÓß‰2
+8
+java:S1700	"Rename field "tablero"(õØÚ¦ûÿÿÿÿ8×ùÓß‰2
+{
+java:S1450"YRemove the "tableroGUI" field and declare it as a local variable in the relevant methods.(¿„–øÿÿÿÿ8€úÓß‰2
+]	java:S125"<This block of commented-out lines of code should be removed.(ŒÏ™—ıÿÿÿÿ8‡úÓß‰2
+C	java:S131-""Add a default case to this switch.(á×Ëşÿÿÿÿ8‰úÓß‰2
+X	java:S125K"<This block of commented-out lines of code should be removed.(êã‘Ó8‹úÓß‰2
+\
+java:S1854X":Remove this useless assignment to local variable "deltay".(Óé£ûÿÿÿÿ8ŒúÓß‰2
+\
+java:S1854W":Remove this useless assignment to local variable "deltax".(™ª„Áÿÿÿÿÿ8ŒúÓß‰2
+M
+java:S1481W"+Remove this unused "deltax" local variable.(™ª„Áÿÿÿÿÿ8úÓß‰2
+M
+java:S1481X"+Remove this unused "deltay" local variable.(Óé£ûÿÿÿÿ8úÓß‰2
+L	java:S106d"+Replace this use of System.out by a logger.(¼«†üıÿÿÿÿ8“úÓß‰2
+W	java:S125x"<This block of commented-out lines of code should be removed.( ÷äF8•úÓß‰2
+X	java:S125|"<This block of commented-out lines of code should be removed.(…ÿæŞ8–úÓß‰2
+H	java:S106Š"+Replace this use of System.out by a logger.(ÙÜü¥8šúÓß‰2
+Y	java:S125"<This block of commented-out lines of code should be removed.(Çµí‘8›úÓß‰2
+J
+java:S1128"(Remove this unused import 'javax.swing'.(Ìí¿Üüÿÿÿÿ8úÓß‰2
+O
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8úÓß‰2
+P
+java:S1068".Remove this unused "tableroGUI" private field.(¿„–øÿÿÿÿ8úÓß‰2

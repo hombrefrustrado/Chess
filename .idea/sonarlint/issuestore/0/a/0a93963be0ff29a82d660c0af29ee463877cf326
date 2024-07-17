@@ -1,0 +1,10 @@
+
+›	java:S116"TRename this field "TILE_SIZE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ό±¬ÿÿÿÿÿ8π©ησ2J$14291e78-5290-4e31-b931-87010291e608
+—	java:S116	"URename this field "BOARD_SIZE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ώΐ8π©ησ2J$5980e0ed-7d46-4bec-b4bf-c102a90a8514
+i
+java:S1170"!Make this final field static too.(ό±¬ÿÿÿÿÿ8τ©ησ2J$718b6415-7104-47a6-b344-59f6e26ad828
+d
+java:S1170	"!Make this final field static too.(Ώΐ8τ©ησ2J$82695500-4575-42f8-b3ff-0123b4e919d8
+l
+java:S1948
+")Make "tablero" transient or serializable.(­εÿ®8φ©ησ2J$76597ab3-c1be-4955-b3a2-910fdd6d1f84
