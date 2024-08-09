@@ -14,12 +14,16 @@ public class Peon extends Pieza{
         int ejex = destinoX-origenX;
         int ejey = destinoY-origenY;
         if(captura==null){
-            return moverDelta(ejex,ejey);
-        } else{
-            if(piel==color.negro){
-                ejey=-ejey;
+            //este ultimo if se pone en el caso de que el peon quiera avanzar dos casillas y la de en medio este ocupada queda como codigo espagueti pero bueno
+            if(Math.abs(ejey)==2) {
+                if (tablero[origenY+ejey/2][origenX]==null) {
+                    return moverDelta(ejex, ejey);
+                }
+            }else{
+                return moverDelta(ejex, ejey);
             }
-            if(Math.abs(ejex)==1&&ejey==1){
+        } else{
+            if(Math.abs(ejex)==1&&Math.abs(ejey)==1){
                 return true;
             }
         }
@@ -41,6 +45,11 @@ public class Peon extends Pieza{
             }
         }
         //si hay algo a los lados debe detectarlo
+        return false;
+    }
+
+    @Override
+    public boolean enMedio(int origenX, int origenY, int destinoX, int destinoY,Pieza[][] tablero){
         return false;
     }
 

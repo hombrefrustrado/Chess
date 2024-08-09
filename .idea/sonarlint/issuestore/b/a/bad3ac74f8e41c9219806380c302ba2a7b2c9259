@@ -1,3 +1,12 @@
 
+˜	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŞÑø»ÿÿÿÿÿ8º÷’2J$499ca4f3-fcda-401b-9357-27cf71695e8b
+‚
+java:S1161":Add the "@Override" annotation above this method signature(ë—Ôšıÿÿÿÿ8ò›‹÷’2J$e72b1ab3-605f-45bb-8c4e-6c8ddbeab559
+p
+java:S1659"-Declare "desplazamientoY" on a separate line.(êì’Â8ó›‹÷’2J$b89c1038-fe5f-4917-a5b0-463750d5406c
+r
+java:S1481"/Remove this unused "auxOrigenX" local variable.(¾ØËÕ8ô›‹÷’2J$f83e656a-d19d-4d4a-bf4e-cd3fc88431dd
+r
+java:S1481"/Remove this unused "auxOrigenY" local variable.(¸›òÅ8ô›‹÷’2J$393f4097-5ac1-4c5f-81b8-3dcc2761af28
 i
-java:S1128"&Remove this unused import 'java.math'.(âî©8»ç©Í…2J$0d3ad7e1-5fc8-483c-8ff6-8c47dda14e68
+java:S1128"&Remove this unused import 'java.math'.(âî©8õ›‹÷’2J$4a768bcf-1fa7-486a-9ea8-00a5c924a6ee

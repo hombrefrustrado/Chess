@@ -75,6 +75,10 @@ public abstract class Pieza {
         return letra;
     }
     public abstract boolean mover(int origenX, int origenY, int destinoX, int destinoY,Pieza[][] tablero);
+    public boolean enMedio(int origenX, int origenY, int destinoX, int destinoY,Pieza[][] tablero){
+        return false;
+    }
+
     //mover delta debe tener acceso al tablero para saber si la casilla a la que se va esta ocupada o crear un procedimiento a parte que use este
     public abstract boolean moverDelta(int ejex,int ejey);
 
