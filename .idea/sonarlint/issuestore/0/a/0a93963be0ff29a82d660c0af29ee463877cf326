@@ -1,10 +1,10 @@
 
-›	java:S116"TRename this field "TILE_SIZE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ό±¬ÿÿÿÿÿ8π©ησ2J$a07785b2-eb23-4246-a49e-8122651b4ca1
-—	java:S116	"URename this field "BOARD_SIZE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ώΐ8π©ησ2J$f1e2c0e0-2473-45c0-b782-f0a87e0e3467
+›	java:S116"TRename this field "TILE_SIZE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ό±¬ÿÿÿÿÿ8π©ησ2J$0d6d7662-e271-44b8-8416-b348c5735113
+—	java:S116	"URename this field "BOARD_SIZE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ώΐ8π©ησ2J$5352b0b9-e0d9-4986-af56-65ee75c3ac37
 i
-java:S1170"!Make this final field static too.(ό±¬ÿÿÿÿÿ8τ©ησ2J$3b6a3432-8be7-4d5e-8677-fcdbcd60b73d
+java:S1170"!Make this final field static too.(ό±¬ÿÿÿÿÿ8τ©ησ2J$13bf7fc4-c039-4692-9536-9bb0fd4ad6d3
 d
-java:S1170	"!Make this final field static too.(Ώΐ8τ©ησ2J$bfb5a311-24ca-41a5-b3cf-a427190cdff7
+java:S1170	"!Make this final field static too.(Ώΐ8τ©ησ2J$2a5eaba8-d39e-4f36-85ff-a871088bba79
 l
 java:S1948
-")Make "tablero" transient or serializable.(­εÿ®8φ©ησ2J$e00d4fdd-1b45-439a-b711-5cf9609c8748
+")Make "tablero" transient or serializable.(­εÿ®8φ©ησ2J$be972e62-1bde-4fc9-a228-75885c28d8b5

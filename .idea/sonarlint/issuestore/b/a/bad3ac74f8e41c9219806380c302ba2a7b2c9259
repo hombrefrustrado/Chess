@@ -1,12 +1,12 @@
 
-˜	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŞÑø»ÿÿÿÿÿ8º÷’2J$499ca4f3-fcda-401b-9357-27cf71695e8b
+˜	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŞÑø»ÿÿÿÿÿ8º÷’2J$8f3a74d4-4aa8-473f-af99-b3f75d8a0b23
 ‚
-java:S1161":Add the "@Override" annotation above this method signature(ë—Ôšıÿÿÿÿ8ò›‹÷’2J$e72b1ab3-605f-45bb-8c4e-6c8ddbeab559
+java:S1161":Add the "@Override" annotation above this method signature(ë—Ôšıÿÿÿÿ8ò›‹÷’2J$5b0c7f91-e0f6-4122-88c7-4bb872cfa614
 p
-java:S1659"-Declare "desplazamientoY" on a separate line.(êì’Â8ó›‹÷’2J$b89c1038-fe5f-4917-a5b0-463750d5406c
+java:S1659"-Declare "desplazamientoY" on a separate line.(êì’Â8ó›‹÷’2J$4ea16e12-354e-404f-833a-605191454ba0
 r
-java:S1481"/Remove this unused "auxOrigenX" local variable.(¾ØËÕ8ô›‹÷’2J$f83e656a-d19d-4d4a-bf4e-cd3fc88431dd
+java:S1481"/Remove this unused "auxOrigenX" local variable.(¾ØËÕ8ô›‹÷’2J$b9f5bae5-92ca-4541-bc79-83facbbae92a
 r
-java:S1481"/Remove this unused "auxOrigenY" local variable.(¸›òÅ8ô›‹÷’2J$393f4097-5ac1-4c5f-81b8-3dcc2761af28
+java:S1481"/Remove this unused "auxOrigenY" local variable.(¸›òÅ8ô›‹÷’2J$52797bff-958a-49c7-bd21-ad498a85a1b6
 i
-java:S1128"&Remove this unused import 'java.math'.(âî©8õ›‹÷’2J$4a768bcf-1fa7-486a-9ea8-00a5c924a6ee
+java:S1128"&Remove this unused import 'java.math'.(âî©8õ›‹÷’2J$adb666e6-256c-49df-8a58-e8ea7e198f58

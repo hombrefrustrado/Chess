@@ -1,11 +1,11 @@
 
 j
-java:S1125"'Remove the unnecessary boolean literal.(İÜ”¥8õÃ™Ì…2J$dbf7c7b3-14f7-4637-bc64-d3e75876cd0e
+java:S1125"'Remove the unnecessary boolean literal.(İÜ”¥8õÃ™Ì…2J$c138b1b3-605c-47b3-b1cf-bd908e664c0d
 š
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 31 to the 15 allowed.(ë—Ôšıÿÿÿÿ8ÑÎø’2J$63edcc48-f971-4e98-b77c-6aade7b1406e
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 31 to the 15 allowed.(ë—Ôšıÿÿÿÿ8ÑÎø’2J$8f50fe8e-d4ce-4435-96c8-0b664c43aa3b
 p
-java:S16598"-Declare "desplazamientoY" on a separate line.(êì’Â8ÔÑø’2J$0e66e7ed-ebbd-4274-8a07-87c8516e9b24
+java:S16598"-Declare "desplazamientoY" on a separate line.(êì’Â8ÔÑø’2J$27b38a20-90f9-4019-82cb-8567de4c355c
 r
-java:S14816"/Remove this unused "auxOrigenX" local variable.(¾ØËÕ8ŸÔÑø’2J$9357a176-ea92-4080-94fc-53c656d5b639
+java:S14816"/Remove this unused "auxOrigenX" local variable.(¾ØËÕ8ŸÔÑø’2J$530c4056-81b5-4cfd-9a31-f3d7ac1f983a
 r
-java:S14817"/Remove this unused "auxOrigenY" local variable.(¸›òÅ8ŸÔÑø’2J$95c86198-aa76-404b-8d15-799c784b4d5a
+java:S14817"/Remove this unused "auxOrigenY" local variable.(¸›òÅ8ŸÔÑø’2J$2bb5a93f-2400-4f00-a31f-6dacf1d79ac0

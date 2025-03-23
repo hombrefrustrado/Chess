@@ -41,34 +41,19 @@ public class Tablero {
     }
 
     public int obtenerNumero(String a){
-        int i = 0;
+
         switch (a){
-            case "a":
-                i=0;
-                break;
-            case "b":
-                i=1;
-                break;
-            case "c":
-                i=2;
-                break;
-            case "d":
-                i=3;
-                break;
-            case "e":
-                i=4;
-                break;
-            case "f":
-                i=5;
-                break;
-            case "g":
-                i=6;
-                break;
-            case "h":
-                i=7;
-                break;
+            case "a": return 0;
+            case "b": return 1;
+            case "c": return 2;
+            case "d": return 3;
+            case "e": return 4;
+            case "f": return 5;
+            case "g": return 6;
+            case "h": return 7;
+            default: throw new IllegalArgumentException("La letras que has introducido no es valida");
         }
-        return i;
+
     }
         public void mover(String letraOriginal, int numeroOriginal, String letraLlegada, int numeroLlegada){
             movimiento(letraOriginal,numeroOriginal-1,letraLlegada,numeroLlegada-1);
@@ -117,14 +102,7 @@ public class Tablero {
         }
         return piezas;
     }
-    /*public void usarTeclado(){
 
-    }*/
-    /*
-    public void actualizarTablero() {
-
-        tableroGUI.repaint();
-    }*/
        public static void main(String[] args) {
             Tablero tablero1 = new Tablero();
             tablero1.ultimoColorEmpleado=color.negro;
@@ -139,21 +117,6 @@ public class Tablero {
                     }
                 }
         }
-    /*
-       public static void main(String[] args) {
-           JFrame frame = new JFrame("Tablero de Ajedrez");
-
-           TableroGUI tableroGUI = new TableroGUI();
-           Tablero tablero = new Tablero();
-           tablero.setTableroGUI(tableroGUI);
-           tableroGUI.setTablero(tablero);
-
-           frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-           frame.add(tableroGUI);
-           frame.pack();
-           frame.setLocationRelativeTo(null);
-           frame.setVisible(true);
-       }*/
     public void setTableroGUI(TableroGUI tableroGUI) {
         this.tableroGUI = tableroGUI;
     }
