@@ -1,34 +1,15 @@
 
-	java:S112E"FDefine and throw a dedicated exception instead of using a generic one.(ÛğÊ¶ûÿÿÿÿ8Ûî÷š2J$c31894ed-68af-438c-bbb5-f54afad8fca1
-ˆ	java:S112O"FDefine and throw a dedicated exception instead of using a generic one.(®§øÔ8Ûî÷š2J$d25ea30e-e7f2-43c2-99f1-fdee85e10482
-ˆ	java:S112R"FDefine and throw a dedicated exception instead of using a generic one.(ì‡›Ï8Ûî÷š2J$15165965-5e36-4bd1-b64f-6c908e8788d4
 d
-java:S1643`"Use a StringBuilder instead.(ó§İÿÿÿÿÿ8İî÷š2J$0f1f5fff-8ece-4918-b024-73fb7e67387a
+java:S1643N"Use a StringBuilder instead.(ó§İÿÿÿÿÿ8Ñ×Ğ¾Ü2J$405f52a6-44f1-4036-a03b-0a274b65ef42
 _
-java:S1643b"Use a StringBuilder instead.(©Àº™8İî÷š2J$89f638ea-94d0-4d34-9084-eabcce1252d2
+java:S1643P"Use a StringBuilder instead.(©Àº™8Ñ×Ğ¾Ü2J$5867390c-11c0-4d72-a966-ea220f411d16
 d
-java:S1643e"Use a StringBuilder instead.(‹ØöÀıÿÿÿÿ8İî÷š2J$bb6b625e-10c0-478f-aafb-9e68fb2b1ea9
-
-java:S4973D"<Strings and Boxed types should be compared using "equals()".(óàüú8ßî÷š2J$640a6789-14a6-4866-846b-f59d580a6703
+java:S1643S"Use a StringBuilder instead.(‹ØöÀıÿÿÿÿ8Ñ×Ğ¾Ü2J$012f539a-675b-4cd1-ac27-7894a04eb910
 ^
-java:S1700	"Rename field "tablero"(õØÚ¦ûÿÿÿÿ8àî÷š2J$827c24a5-df20-4686-a8e1-85fa17e89352
+java:S1700"Rename field "tablero"(õØÚ¦ûÿÿÿÿ8Ó×Ğ¾Ü2J$ba28ef04-210e-4f4f-88b3-5ec4aade5519
 ¡
-java:S1450"YRemove the "tableroGUI" field and declare it as a local variable in the relevant methods.(¿„–øÿÿÿÿ8‚î÷š2J$8e83fc59-2fc3-48bc-9359-17144262f526
-ƒ	java:S125"<This block of commented-out lines of code should be removed.(ŒÏ™—ıÿÿÿÿ8ˆî÷š2J$cbc34272-517d-42ef-834e-147ca0b0b77a
-~	java:S125<"<This block of commented-out lines of code should be removed.(êã‘Ó8‹î÷š2J$64e6e6b2-9bd0-402c-bcc7-d643ee5e0e45
-‚
-java:S1854I":Remove this useless assignment to local variable "deltay".(Óé£ûÿÿÿÿ8î÷š2J$0ac0567e-6294-4edd-a83c-5926e53ccaa3
-‚
-java:S1854H":Remove this useless assignment to local variable "deltax".(™ª„Áÿÿÿÿÿ8î÷š2J$18bc26f7-44b3-40a8-ac2b-62cf072764f6
-s
-java:S1481H"+Remove this unused "deltax" local variable.(™ª„Áÿÿÿÿÿ8î÷š2J$b40b38b6-ba82-49b5-90fb-d91d3f4b3d33
-s
-java:S1481I"+Remove this unused "deltay" local variable.(Óé£ûÿÿÿÿ8î÷š2J$8cf9a236-f50c-439f-b865-54bf90c51771
-r	java:S106U"+Replace this use of System.out by a logger.(¼«†üıÿÿÿÿ8“î÷š2J$dce148a0-e17e-45ff-8b13-47e5a69d7cf5
-m	java:S106t"+Replace this use of System.out by a logger.(ÙÜü¥8˜î÷š2J$6a5e68b1-afcb-4ab3-af90-e7501a4fb15b
-p
-java:S1128"(Remove this unused import 'javax.swing'.(Ìí¿Üüÿÿÿÿ8Ãƒš Ü2J$60502f21-036e-4725-b9ef-9922508975ce
-u
-java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8Ãƒš Ü2J$da62ef18-6f00-46bc-9666-71ee8a6c0d2a
+java:S1450	"YRemove the "tableroGUI" field and declare it as a local variable in the relevant methods.(¿„–øÿÿÿÿ8ê×Ğ¾Ü2J$b092da22-1962-4845-a77c-b041443a1fd4
+r	java:S106C"+Replace this use of System.out by a logger.(¼«†üıÿÿÿÿ8ô×Ğ¾Ü2J$cdc2c35b-c0f4-4d3f-8188-2fec8c6d55e1
+m	java:S106b"+Replace this use of System.out by a logger.(ÙÜü¥8ø×Ğ¾Ü2J$5e9a4c0a-4c3c-467e-9b6b-f9554be8b0b1
 v
-java:S1068".Remove this unused "tableroGUI" private field.(¿„–øÿÿÿÿ8î÷š2J$d402efad-5ea9-406b-b57c-db3f20a77bc8
+java:S1068	".Remove this unused "tableroGUI" private field.(¿„–øÿÿÿÿ8ú×Ğ¾Ü2J$3e47e1a8-330c-447d-bdd7-63053b61dad5

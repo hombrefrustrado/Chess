@@ -1,8 +1,9 @@
 
-
-java:S5993"9Change the visibility of this constructor to "protected".(ÕÖÂøÿÿÿÿ8¸­ññ’2J$01f7711e-bbae-4c22-8154-7d61b6a7560b
-i	java:S131""Add a default case to this switch.(á×Ëşÿÿÿÿ8º­ññ’2J$5893a595-0ff9-4ad0-8596-73a65257d203
+[
+java:S5993"9Change the visibility of this constructor to "protected".(ÕÖÂøÿÿÿÿ8Òßú¾Ü2
+H
+java:S1481"&Remove this unused "i" local variable.(ùó›Ìøÿÿÿÿ8Ôßú¾Ü2
 €
-java:S1172N"^Remove these unused method parameters "origenX", "origenY", "destinoX", "destinoY", "tablero".(ë—Ôšıÿÿÿÿ8‘ÒÂõ’2
-
-java:S1124U"EReorder the modifiers to comply with the Java Language Specification.(Ø¢äóùÿÿÿÿ8½­ññ’2J$7974d868-910c-4624-88ba-17e5a5fffe89
+java:S1172*"^Remove these unused method parameters "origenX", "origenY", "destinoX", "destinoY", "tablero".(ë—Ôšıÿÿÿÿ8×ßú¾Ü2
+g
+java:S11241"EReorder the modifiers to comply with the Java Language Specification.(Ø¢äóùÿÿÿÿ8Øßú¾Ü2

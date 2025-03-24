@@ -13,66 +13,30 @@ public abstract class Pieza {
     }
     public int obtenerNumero(String a){
         int i = 0;
-        switch (a){
-            case "a":
-                i=0;
-                break;
-            case "b":
-                i=1;
-                break;
-            case "c":
-                i=2;
-                break;
-            case "d":
-                i=3;
-                break;
-            case "e":
-                i=4;
-                break;
-            case "f":
-                i=5;
-                break;
-            case "g":
-                i=6;
-                break;
-            case "h":
-                i=7;
-                break;
-        }
-        return i;
+        return switch (a){
+            case "a" -> 0;
+            case "b" -> 1;
+            case "c" -> 2;
+            case "d" -> 3;
+            case "e" -> 4;
+            case "f" -> 5;
+            case "g" -> 6;
+            case "h" -> 7;
+            default -> throw new IllegalArgumentException("Introduce un estamento valido");
+        };
     }
     public String obtenerLetra(int i){
-        String letra = "";
-        switch (i){
-            case 0:
-                letra="a";
-                break;
-            case 1:
-                letra="b";
-                break;
-            case 2:
-                letra="c";
-                break;
-            case 3:
-                letra="d";
-                break;
-            case 4:
-                letra="e";
-                break;
-            case 5:
-                letra="f";
-                break;
-            case 6:
-                letra="g";
-                break;
-            case 7:
-                letra="h";
-                break;
-            default:
-                letra="invalido";
-                break;
-        }
-        return letra;
+        return switch (i) {
+            case 0 -> "a";
+            case 1 -> "b";
+            case 2 -> "c";
+            case 3 -> "d";
+            case 4 -> "e";
+            case 5 -> "f";
+            case 6 -> "g";
+            case 7 -> "h";
+            default -> throw new IllegalArgumentException("Has introducido un valor fuera de indice");
+        };
     }
     public abstract boolean mover(int origenX, int origenY, int destinoX, int destinoY,Pieza[][] tablero);
     public boolean enMedio(int origenX, int origenY, int destinoX, int destinoY,Pieza[][] tablero){

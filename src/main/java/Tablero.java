@@ -1,8 +1,5 @@
 
 import piezas.*;
-
-import javax.swing.*;
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Tablero {
@@ -21,69 +18,54 @@ public class Tablero {
                 {new Torre(color.negro), new Caballo(color.negro), new Alfil(color.negro), new Dama(color.negro), new Rey(color.negro), new Alfil(color.negro)  , new Caballo(color.negro),new Torre(color.negro)},
         };
     }
-/*
-    public Tablero(TableroGUI tableroGUI) {
-        this.tableroGUI = tableroGUI;
-        tablero = new Pieza[][]{
-                {new Torre(color.blanco), new Caballo(color.blanco), new Alfil(color.blanco), new Dama(color.blanco), new Rey(color.blanco), new Alfil(color.blanco), new Caballo(color.blanco), new Torre(color.blanco)},
-                {new Peon(color.blanco),new Peon(color.blanco),new Peon(color.blanco),new Peon(color.blanco),new Peon(color.blanco),new Peon(color.blanco),new Peon(color.blanco),new Peon(color.blanco)},
-                {null,null,null,null,null,null,null,null},
-                {null,null,null,null,null,null,null,null},
-                {null,null,null,null,null,null,null,null},
-                {null,null,null,null,null,null,null,null},
-                {new Peon(color.negro),new Peon(color.negro),new Peon(color.negro),new Peon(color.negro),new Peon(color.negro),new Peon(color.negro),new Peon(color.negro),new Peon(color.negro)},
-                {new Torre(color.negro), new Caballo(color.negro), new Alfil(color.negro), new Dama(color.negro), new Rey(color.negro), new Alfil(color.negro), new Caballo(color.negro),new Torre(color.negro)},
-        };
-    }
-*/
+
     public void setUltimoColorEmpleado(color ultimoColorEmpleado) {
         this.ultimoColorEmpleado = ultimoColorEmpleado;
     }
 
     public int obtenerNumero(String a){
 
-        switch (a){
-            case "a": return 0;
-            case "b": return 1;
-            case "c": return 2;
-            case "d": return 3;
-            case "e": return 4;
-            case "f": return 5;
-            case "g": return 6;
-            case "h": return 7;
-            default: throw new IllegalArgumentException("La letras que has introducido no es valida");
-        }
-
+        return switch (a) {
+            case "a" -> 0;
+            case "b" -> 1;
+            case "c" -> 2;
+            case "d" -> 3;
+            case "e" -> 4;
+            case "f" -> 5;
+            case "g" -> 6;
+            case "h" -> 7;
+            default -> throw new IllegalArgumentException("La letras que has introducido no es valida");
+        };
     }
         public void mover(String letraOriginal, int numeroOriginal, String letraLlegada, int numeroLlegada){
             movimiento(letraOriginal,numeroOriginal-1,letraLlegada,numeroLlegada-1);
-            //actualizarTablero();
         }
+
         public void movimiento(String letraOriginal, int numeroOriginal, String letraLlegada, int numeroLlegada){
                 color coloractual;
                 try {
-                        Pieza pieza = tablero[numeroOriginal][obtenerNumero(letraOriginal)];
-                        coloractual = pieza.getColor();
-
-                        if((letraOriginal==letraLlegada) && (numeroOriginal==numeroLlegada)){
-                            throw new Exception("Debes mover la pieza");
-                        }
-                        if(coloractual!=ultimoColorEmpleado){
-                            int deltax = obtenerNumero(letraLlegada)-obtenerNumero(letraOriginal);
-                            int deltay = numeroLlegada-numeroOriginal;
-                            if(pieza.mover(obtenerNumero(letraOriginal),numeroOriginal,obtenerNumero(letraLlegada),numeroLlegada,tablero)){
-                                tablero[numeroOriginal][obtenerNumero(letraOriginal)]=null;
-                                tablero[numeroLlegada][pieza.obtenerNumero(letraLlegada)] = pieza;
-                                ultimoColorEmpleado=pieza.getColor();
-                            }else{
-                                throw new Exception("Movimiento invalido");
-                            }
-                        }else{
-                            throw new Exception("No intentes mover dos veces");
-                        }
-                    } catch (Exception e) {
-                        System.out.println("Asegurate de que has introduce adecuadamente los estamentos: "+e.getMessage());
+                    Pieza pieza = tablero[numeroOriginal][obtenerNumero(letraOriginal)];
+                    if (pieza == null) {
+                        throw new IllegalArgumentException("No hay ninguna pieza en la posición de origen.");
                     }
+
+                    coloractual = pieza.getColor();
+                    if(letraOriginal.equals(letraLlegada) && numeroOriginal==numeroLlegada){
+                        throw new IllegalArgumentException("Debes mover la pieza");
+                    }
+                    if(coloractual==ultimoColorEmpleado){
+                        throw new IllegalArgumentException("No intentes mover dos veces");
+                    }
+                    if (!pieza.mover(obtenerNumero(letraOriginal), numeroOriginal, obtenerNumero(letraLlegada), numeroLlegada, tablero)) {
+                        throw new IllegalArgumentException("Movimiento invalido");
+                    }
+                    tablero[numeroOriginal][obtenerNumero(letraOriginal)]=null;
+                    tablero[numeroLlegada][pieza.obtenerNumero(letraLlegada)] = pieza;
+                    ultimoColorEmpleado=pieza.getColor();
+
+                } catch (Exception e) {
+                    System.out.println("Asegurate de que has introduce adecuadamente los estamentos: "+e.getMessage());
+                }
         }
 
 
