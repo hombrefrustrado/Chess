@@ -71,18 +71,23 @@ public class Tablero {
 
     @Override
     public String toString() {
-        String piezas="";
-        for(int i=0; i<8; i++){
-            for(int j=0; j<8; j++){
-                if(tablero[i][j]!=null){
-                    piezas+=tablero[i][j].pieza();
-                }else{
-                    piezas+=" ";
+        StringBuilder piezas = new StringBuilder();
+        for (int i = 0; i < 8; i++) {
+            for (int j = 0; j < 8; j++) {
+                if (tablero[i][j] != null) {
+                    // Añadimos un espacio para que mantenga el ancho de la casilla
+                    piezas.append(tablero[i][j].pieza()).append(" ");
+                } else {
+                    if ((i + j) % 2 == 0) {
+                        piezas.append("\u25FC "); // Casilla oscura + espacio
+                    } else {
+                        piezas.append("\u25FB "); // Casilla clara + espacio
+                    }
                 }
             }
-            piezas+="\n";
+            piezas.append("\n");
         }
-        return piezas;
+        return piezas.toString();
     }
 
        public static void main(String[] args) {

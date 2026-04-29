@@ -55,10 +55,10 @@ public class Peon extends Pieza{
 
     @Override
     public String pieza() {
-        if(piel.equals(color.blanco)){
-            return "♙";
-        }else {
-            return "♟";
+        if (piel.equals(color.blanco)) {
+            return "\u2659";
+        } else {
+            return "\u265F";
         }
     }
 }
